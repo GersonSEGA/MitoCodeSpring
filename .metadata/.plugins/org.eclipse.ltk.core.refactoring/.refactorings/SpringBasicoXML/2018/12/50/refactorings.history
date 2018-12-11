@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;SpringBasico/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;SpringBasicoXML&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBasico/src/main/java&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SpringBasicoXML/src/main/java/com.mitocode.model&#x0D;&#x0A;     SpringBasicoXML/src/main/java/com.mitocode&#x0D;&#x0A;     SpringBasicoXML/src/main/java/com.mitocode.service" description="Copy packages" destination="=SpringBasico/src\/main\/java" element1="/src\/main\/java&lt;com.mitocode.model" element2="/src\/main\/java&lt;com.mitocode" element3="/src\/main\/java&lt;com.mitocode.service" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1544549298679" version="1.0"/>
+</session>
