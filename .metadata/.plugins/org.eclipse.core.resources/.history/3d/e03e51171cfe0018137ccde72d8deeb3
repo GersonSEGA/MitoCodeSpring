@@ -1,0 +1,14 @@
+package com.mitocode.service;
+
+import com.mitocode.dao.IPersonaDAO;
+import com.mitocode.model.Persona;
+
+public class PersonaServiceImpl implements IPersonaService {
+
+	private IPersonaDAO dao;
+	
+	public void create(Persona persona) {
+		dao.create(persona);
+	}
+
+}

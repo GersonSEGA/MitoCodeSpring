@@ -1,0 +1,12 @@
+package com.mitocode.dao;
+
+import com.mitocode.model.Persona;
+
+public class PersonaDAOImpl implements IPersonaDAO {
+
+	@Override
+	public void create(Persona persona) {
+		System.out.println("Persona creada " + persona.getNombres());
+	}
+
+}

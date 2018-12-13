@@ -1221,3 +1221,703 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-11 12:48:49.338
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OuWIuxnM => OK
+!SESSION 2018-12-12 08:14:33.903 -----------------------------------------------
+eclipse.buildId=4.0.2.201811300843-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PE
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-12-12 08:15:42.684
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-12 08:15:42.684
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fc435e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bf18412,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2018-12-12 08:15:44.327
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2018-12-12 08:15:44.327
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-12-12 08:15:54.488
+!MESSAGE Project facet jst.web has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-12-12 08:15:54.491
+!MESSAGE Project facet jst.webfragment has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-12-12 08:15:57.490
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gerso'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-12-12 08:15:59.899
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.7.v20180504-0806
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:41.318
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:41.320
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@77a13162[org.springframework.tooling.boot.ls:1.1.1.201811300741(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:41.327
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:41.368
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.085
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UefIvmiL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.087
+!MESSAGE subscribing to classpath changes: sts4.classpath.UefIvmiL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.089
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.090
+!MESSAGE subsribers = [sts4.classpath.UefIvmiL]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.092
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.095
+!MESSAGE project SpringMixtoBD ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.097
+!MESSAGE project SpringBasico ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.098
+!MESSAGE Preparing classpath changed notification SpringMixtoBD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.099
+!MESSAGE project SpringBasicoXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.100
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.101
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.103
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UefIvmiL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.105
+!MESSAGE classpath=23 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.107
+!MESSAGE executing callback sts4.classpath.UefIvmiL SpringMixtoBD false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.361
+!MESSAGE executing callback sts4.classpath.UefIvmiL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.363
+!MESSAGE Preparing classpath changed notification SpringBasicoXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.365
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.369
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.370
+!MESSAGE executing callback sts4.classpath.UefIvmiL SpringBasicoXML false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.384
+!MESSAGE executing callback sts4.classpath.UefIvmiL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.386
+!MESSAGE Preparing classpath changed notification SpringBasico
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.388
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.391
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.392
+!MESSAGE executing callback sts4.classpath.UefIvmiL SpringBasico false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 08:44:45.407
+!MESSAGE executing callback sts4.classpath.UefIvmiL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:13:31.303
+!MESSAGE Preparing classpath changed notification SpringMixtoBD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:13:31.305
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:13:31.309
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:13:31.311
+!MESSAGE executing callback sts4.classpath.UefIvmiL SpringMixtoBD false 32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:13:31.313
+!MESSAGE executing callback sts4.classpath.UefIvmiL FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-12-12 09:13:31.314
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.UefIvmiL'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.core 4 -1 2018-12-12 09:13:31.870
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.execution.MavenExecutionRequestPopulator
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1270)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:236)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.newExecutionRequest(MavenExecutionContext.java:92)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:125)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Unknown Source)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 10 more
+!SESSION 2018-12-12 09:13:34.605 -----------------------------------------------
+eclipse.buildId=4.0.2.201811300843-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PE
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-12-12 09:13:41.119
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-12 09:13:41.119
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@167bb934,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b3f62d7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2018-12-12 09:13:42.464
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2018-12-12 09:13:42.464
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-12-12 09:13:46.211
+!MESSAGE Project facet jst.web has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-12-12 09:13:46.213
+!MESSAGE Project facet jst.webfragment has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-12-12 09:13:48.215
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gerso'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-12-12 09:13:50.446
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.7.v20180504-0806
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:17:58.310
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:17:58.311
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7806db3f[org.springframework.tooling.boot.ls:1.1.1.201811300741(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:17:58.313
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:17:58.338
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.880
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FQjbNUFz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.882
+!MESSAGE subscribing to classpath changes: sts4.classpath.FQjbNUFz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.884
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.886
+!MESSAGE subsribers = [sts4.classpath.FQjbNUFz]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.887
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.891
+!MESSAGE project SpringMixtoBD ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.893
+!MESSAGE project SpringBasico ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.894
+!MESSAGE Preparing classpath changed notification SpringMixtoBD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.896
+!MESSAGE project SpringBasicoXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.898
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.900
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FQjbNUFz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.903
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:01.904
+!MESSAGE executing callback sts4.classpath.FQjbNUFz SpringMixtoBD false 32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.160
+!MESSAGE executing callback sts4.classpath.FQjbNUFz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.162
+!MESSAGE Preparing classpath changed notification SpringBasicoXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.164
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.168
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.169
+!MESSAGE executing callback sts4.classpath.FQjbNUFz SpringBasicoXML false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.175
+!MESSAGE executing callback sts4.classpath.FQjbNUFz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.177
+!MESSAGE Preparing classpath changed notification SpringBasico
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.178
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.181
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.182
+!MESSAGE executing callback sts4.classpath.FQjbNUFz SpringBasico false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:18:02.196
+!MESSAGE executing callback sts4.classpath.FQjbNUFz SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:45.445
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FQjbNUFz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:45.447
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FQjbNUFz
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:45.448
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:45.449
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FQjbNUFz => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.204
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JyzUcfKh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.206
+!MESSAGE subscribing to classpath changes: sts4.classpath.JyzUcfKh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.207
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.209
+!MESSAGE subsribers = [sts4.classpath.JyzUcfKh]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.210
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.294
+!MESSAGE project SpringMixtoBD ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.296
+!MESSAGE Preparing classpath changed notification SpringMixtoBD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.299
+!MESSAGE project SpringBasico ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.302
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.304
+!MESSAGE project SpringBasicoXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.306
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.308
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.309
+!MESSAGE executing callback sts4.classpath.JyzUcfKh SpringMixtoBD false 32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.311
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JyzUcfKh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.521
+!MESSAGE executing callback sts4.classpath.JyzUcfKh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.522
+!MESSAGE Preparing classpath changed notification SpringBasicoXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.524
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.527
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.528
+!MESSAGE executing callback sts4.classpath.JyzUcfKh SpringBasicoXML false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.536
+!MESSAGE executing callback sts4.classpath.JyzUcfKh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.537
+!MESSAGE Preparing classpath changed notification SpringBasico
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.539
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.541
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.543
+!MESSAGE executing callback sts4.classpath.JyzUcfKh SpringBasico false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:31:48.550
+!MESSAGE executing callback sts4.classpath.JyzUcfKh SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-12-12 09:47:03.827
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:42)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:911)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:544)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:228)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:671)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:671)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:671)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$11(MarketplaceCatalog.java:326)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-12-12 09:47:03.832
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:32)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:911)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:544)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:228)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:77)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:100)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:671)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:671)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:671)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$11(MarketplaceCatalog.java:326)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:17.530
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JyzUcfKh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:17.532
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JyzUcfKh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:17.534
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:17.535
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JyzUcfKh => OK
+!SESSION 2018-12-12 09:48:20.002 -----------------------------------------------
+eclipse.buildId=4.0.2.201811300843-RELEASE
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PE
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2018-12-12 09:48:43.247
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-12-12 09:48:43.247
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-12-12 09:48:44.926
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-12-12 09:48:44.956
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2018-12-12 09:48:45.428
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-12 09:48:45.428
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37a74cf4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40af3dd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2018-12-12 09:48:46.906
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2018-12-12 09:48:46.906
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:50.963
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:50.965
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1e64a724[org.springframework.tooling.boot.ls:1.1.1.201811300741(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:50.966
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:50.991
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-12-12 09:48:52.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gerso'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-12-12 09:48:53.894
+!MESSAGE Project facet jst.web has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2018-12-12 09:48:53.960
+!MESSAGE Project facet jst.webfragment has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-12-12 09:48:54.813
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.7.v20180504-0806
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:66)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:51)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:65)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.117
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HAZhIIAc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.119
+!MESSAGE subscribing to classpath changes: sts4.classpath.HAZhIIAc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.122
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.124
+!MESSAGE subsribers = [sts4.classpath.HAZhIIAc]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.126
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.152
+!MESSAGE project SpringMixtoBD ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.155
+!MESSAGE project SpringBasico ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.156
+!MESSAGE Preparing classpath changed notification SpringMixtoBD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.158
+!MESSAGE project SpringBasicoXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.159
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.160
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.161
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HAZhIIAc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.166
+!MESSAGE classpath=32 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.168
+!MESSAGE executing callback sts4.classpath.HAZhIIAc SpringMixtoBD false 32
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.418
+!MESSAGE executing callback sts4.classpath.HAZhIIAc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.420
+!MESSAGE Preparing classpath changed notification SpringBasicoXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.422
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.425
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.426
+!MESSAGE executing callback sts4.classpath.HAZhIIAc SpringBasicoXML false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.433
+!MESSAGE executing callback sts4.classpath.HAZhIIAc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.434
+!MESSAGE Preparing classpath changed notification SpringBasico
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.438
+!MESSAGE classpath=29 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.439
+!MESSAGE executing callback sts4.classpath.HAZhIIAc SpringBasico false 29
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:48:56.450
+!MESSAGE executing callback sts4.classpath.HAZhIIAc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:51:05.078
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HAZhIIAc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:51:05.080
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HAZhIIAc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:51:05.082
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-12-12 09:51:05.084
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HAZhIIAc => OK
